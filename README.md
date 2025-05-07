@@ -15,7 +15,7 @@ Key features:
 * **Core‑symmetry augmentations:** 90° rotations, flips, ±5 px periodic shifts
 * **Reproducibility:** Controlled bit‑wise seeding for data splits and training
 * **Hyperparameter tuning:** Manual one‑factor‑at‑a‑time sweeps and Optuna-based Bayesian optimisation
-* **Lightweight workflow:** CPU‑only, 1 000 samples per branch, full run in ≈1 h 12 min
+* **Lightweight workflow:** CPU and GPU, 1 000 samples per branch, full run in ≈1 h 12 min
 
 ---
 
@@ -32,13 +32,7 @@ Key features:
 
 * `Python Scripts/`
   Data loaders, preprocessing scripts, model definitions, training, and evaluation code.
-
-* `configs/`
-  YAML configuration files for training and Optuna studies.
-
-* `results/`
-  Plots and metrics summarizing model performance.
-
+  
 ---
 
 ## Installation & Setup
